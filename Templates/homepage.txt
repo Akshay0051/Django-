@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iris Prediction Home Page</title>
+</head>
+<body>
+
+<h1>Home Page</h1>
+
+<h3>Iris Prediction Page</h3>
+
+<form action = "{%url 'result'%}">
+
+    <label>Sepal Length :</label>
+    <input type="text" required name = "sepal_length"><br><br>
+
+    <label>Sepal Width :</label>
+    <input type="text" required name = "sepal_width"><br><br>
+
+    <label>Petal Lengh :</label>
+    <input type="text" required name = "petal_length"><br><br>
+
+    <label>Petal Width :</label>
+    <input type="text" required name = "petal_width"><br><br>
+
+    <input type = submit name = "" value = 'submit'>
+
+<style >
+
+    h1 {
+    color : blue;
+    text-align:center;
+    }
+
+    h3 {
+    color : red;
+    text-align:center;
+    }
+
+    body {
+    background-color : #00FFFF ;
+    }
+
+    input [type = text]{
+    width : 20%;
+    padding : 8px 20px;
+    margin :8px 0;
+    box-sizing :border-box
+    }
+
+    input [type = submit]{
+    width : 20%;
+    padding : 8px 20px;
+    margin :8px 0;
+    box-sizing :border-box
+    }
+
+
+</style>
+
+
+
+</form>
+
+</body>
+</html>
